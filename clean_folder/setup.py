@@ -7,7 +7,7 @@ setup(
     install_requires=[],
     entry_points={
         "console_scripts": [
-            "clean-folder = clean_folder.clean:clean_folder"
+            "clean-folder = clean_folder.clean:clean"
         ]
     }
 )
