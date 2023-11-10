@@ -126,7 +126,7 @@ def print_unknown_extensions(folder_path):
         print(ext)
 
 
-if __name__ == "__main__":
+def main():
     import sys
     if len(sys.argv) != 2:
         print("Provide exactly one path to the folder.")
@@ -137,3 +137,7 @@ if __name__ == "__main__":
         print_category_files(folder_path)
         print_known_extensions(folder_path)
         print_unknown_extensions(folder_path)
+
+
+if __name__ == "__main__":
+    main()
